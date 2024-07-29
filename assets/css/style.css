@@ -1,24 +1,33 @@
-*{
-margin:0;
-padding:0;
-box-sizing: border-box;
+/*Google Fonts - Crimson Text & Titillium Web*/
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+/*Asteriks wildcard to override default styles*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-body{
-    display:flex;
+/*General Styles**/
+body {
+    display: flex;
     flex-direction: column;
     min-height: 100vh;
+    color: #fafafa;
 }
 
-header{
+/*Header*/
+header {
     background-color: aqua;
 }
 
-main{
+/*Main content*/
+main {
     background-color: orange;
-    flex:1;
+    flex: 1;
 }
 
-footer{
+/*Footer*/
+footer {
     background-color: blueviolet;
 }
