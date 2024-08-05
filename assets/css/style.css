@@ -26,6 +26,7 @@ header {
     width:100%;
     box-shadow: 0 2px 3px #181717;
 }
+
 h1{
     text-transform: uppercase;
     letter-spacing: 1.5px;
@@ -35,6 +36,17 @@ h1{
 header a{
     text-decoration: none;
     color:#fafafa;
+}
+#menu{
+    list-style: none;
+    font-size:105%;
+    letter-spacing: 2px;
+}
+
+#menu > li{
+    margin: 1rem auto;
+    padding:5px;
+    
 }
 /*Main content*/
 main {
