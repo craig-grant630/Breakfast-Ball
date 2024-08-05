@@ -19,7 +19,12 @@ body {
 
 /*Header*/
 header {
-    background-color: aqua;
+    background-color: #181717;
+    padding: 0 1rem;
+    position: fixed;
+    z-index:100;
+    width:100%;
+    box-shadow: 0 2px 3px #181717;
 }
 
 /*Main content*/
