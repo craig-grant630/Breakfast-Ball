@@ -25,6 +25,9 @@ header {
     z-index:100;
     width:100%;
     box-shadow: 0 2px 3px #181717;
+    display:flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 h1{
@@ -57,15 +60,33 @@ header a{
     border-radius: 20px;
 }
 /*Navbar styles with dropdown toggle*/
+
 nav{
     position:absolute;
     background-color: #181717;
-    right:0;
+    top:100%;
+    right:-100%;
     width:100%;
     box-shadow: 0 2px 3px #181717;
     padding: 0 1rem;
+    transition: 0.75s ease-out;
+    
+    
+}
+
+/*Nav Toggle*/
+#nav-toggle:checked ~ nav{
+    right:0;
+}
+
+header input{
     display:none;
 }
+
+#nav-toggle-label{
+    font-size: 200%;
+}
+
 /*Main content*/
 main {
     background-color: orange;
