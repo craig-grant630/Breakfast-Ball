@@ -55,9 +55,16 @@ header a{
     background-color: #0c8a1d;
     border:none;
     border-radius: 20px;
-
-
-
+}
+/*Navbar styles with dropdown toggle*/
+nav{
+    position:absolute;
+    background-color: #181717;
+    right:0;
+    width:100%;
+    box-shadow: 0 2px 3px #181717;
+    padding: 0 1rem;
+    display:none;
 }
 /*Main content*/
 main {
