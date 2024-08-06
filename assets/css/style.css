@@ -40,6 +40,7 @@ header a{
     text-decoration: none;
     color:#fafafa;
     padding:0.5rem 1rem;
+    /*Reminder use for larger screens*/
     cursor:pointer;
 }
 #menu{
@@ -97,4 +98,21 @@ main {
 /*Footer*/
 footer {
     background-color: blueviolet;
+}
+
+/*Media query: larger screens (tablets and computers)*/
+@media screen and (min-width:768px){
+    nav{
+        right:0;
+        position:relative;
+        box-shadow: none;
+        transition: none;
+    }
+    #menu{
+        display:flex;
+        justify-content: flex-end;
+    }
+    #nav-toggle-label{
+        display:none;
+    }
 }
