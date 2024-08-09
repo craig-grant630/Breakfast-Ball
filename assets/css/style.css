@@ -20,7 +20,7 @@ body {
 /*Header*/
 header {
     background-color: #181717;
-    padding: 0 1rem;
+    padding: 0 0.5rem;
     position: fixed;
     z-index:100;
     width:100%;
@@ -32,26 +32,27 @@ header {
 
 h1{
     text-transform: uppercase;
-    letter-spacing: 1.5px;
+    letter-spacing: 1.1px;
     text-shadow: #0c8a1d 1px 0 10px;
+    
     
 }
 header a{
     text-decoration: none;
     color:#fafafa;
-    padding:0.5rem 1rem;
+    padding:0.5rem 0.7rem;
     /*Reminder use for larger screens*/
     cursor:pointer;
 }
 #menu{
     list-style: none;
-    font-size:105%;
+    font-size:100%;
     letter-spacing: 2px;
 }
 
 #menu > li{
-    margin: 1rem 0;
-    padding:5px;
+    margin: auto 0;
+    padding:5px 2px;
     
 }
 
@@ -67,9 +68,8 @@ nav{
     background-color: #181717;
     top:100%;
     right:-100%;
-    width:100%;
     box-shadow: 0 2px 3px #181717;
-    padding: 0 1rem;
+    padding: 0 auto;
     
     /*Transistion found https://developer.mozilla.org/en-US/docs/Web/CSS/transition*/
     transition: 0.75s ease-out;   
@@ -96,8 +96,19 @@ main {
 }
 
 /*Footer*/
-footer {
-    background-color: blueviolet;
+#social-networks {
+    text-align: center;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #181717;
+    list-style-type: none;
+}
+
+#social-networks i{
+    font-size: 170%;
+    color:#fafafa;
+    padding:5%;
 }
 
 /*Media query: larger screens (tablets and computers)*/
@@ -115,4 +126,10 @@ footer {
     #nav-toggle-label{
         display:none;
     }
+}
+
+@media screen and (max-width:371px){
+    main{
+        padding-top: 90px;
+}
 }
