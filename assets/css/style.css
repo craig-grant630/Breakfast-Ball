@@ -72,8 +72,6 @@ header li a:hover{
     background-color: #0c8a1d;
     border:none;
     border-radius: 20px;
-  
-    
 }
 
 .contact:hover{
@@ -129,6 +127,10 @@ main {
     font-size: 170%;
     color:#fafafa;
     padding:5%;
+}
+
+#social-networks i:hover{
+    color:#0c8a1d;
 }
 
 /*Media query: larger screens (tablets and computers)*/
