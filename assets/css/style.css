@@ -44,10 +44,17 @@ header a{
     /*Reminder use for larger screens*/
     cursor:pointer;
 }
+
+header li a:hover{
+    text-decoration: underline;
+    color: #0c8a1d;
+    text-shadow: #0c8a1d 1px 0 10px;
+}
 #menu{
     list-style: none;
     font-size:100%;
     letter-spacing: 2px;
+    
 }
 
 #menu > li{
@@ -55,11 +62,24 @@ header a{
     padding:5px 2px;
     
 }
+.active{
+    text-decoration: underline;
+    color:#0c8a1d;
+    font-weight: bold;
+}
 
 .contact{
     background-color: #0c8a1d;
     border:none;
     border-radius: 20px;
+  
+    
+}
+
+.contact:hover{
+    color:#fafafa;
+    transform: scale(1.05);
+    text-decoration: none;
 }
 /*Navbar styles with dropdown toggle*/
 
@@ -127,7 +147,7 @@ main {
         display:none;
     }
 }
-
+/*Push main content down for small screens when logo takes up more space*/
 @media screen and (max-width:371px){
     main{
         padding-top: 90px;
