@@ -143,6 +143,7 @@ main {
         transition: none;
         padding-bottom:0;
         width:auto;
+        backdrop-filter: none;
     }
     #menu{
         display:flex;
