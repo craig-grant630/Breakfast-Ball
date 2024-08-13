@@ -59,7 +59,7 @@ header li a:hover{
 
 #menu > li{
     margin: auto 0;
-    padding:5px 2px;
+    padding:15px 2px;
     
 }
 .active{
@@ -88,7 +88,9 @@ nav{
     right:-100%;
     box-shadow: 0 2px 3px #181717;
     padding: 0 auto;
-    
+    padding-bottom: 10px;
+    width:100%;
+    text-align: center;
     /*Transistion found https://developer.mozilla.org/en-US/docs/Web/CSS/transition*/
     transition: 0.75s ease-out;   
 }
@@ -140,11 +142,19 @@ main {
         position:relative;
         box-shadow: none;
         transition: none;
+        padding-bottom:0;
+        width:auto;
     }
     #menu{
         display:flex;
         justify-content: flex-end;
     }
+
+    #menu > li{
+        padding:5px 2px;
+        
+    }
+
     #nav-toggle-label{
         display:none;
     }
