@@ -30,7 +30,7 @@ header {
     align-items: baseline;
 }
 
-h1{
+header h1{
     text-transform: uppercase;
     letter-spacing: 1.1px;
     text-shadow: #0c8a1d 1px 0 10px;
@@ -83,10 +83,9 @@ header li a:hover{
 
 nav{
     position:absolute;
-    background-color: #181717;
+    backdrop-filter: blur(3px);
     top:100%;
     right:-100%;
-    box-shadow: 0 2px 3px #181717;
     padding: 0 auto;
     padding-bottom: 10px;
     width:100%;
