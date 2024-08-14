@@ -23,7 +23,7 @@ h1{
     font-family: "Tillilium", sans-serif;
 }
 
-h2,h3{
+h2,h3,h4{
     text-transform: uppercase;
     font-family: "Poppins", sans-serif;
     letter-spacing: 1.1px;
@@ -123,6 +123,7 @@ main {
     width: 100%;
     height:600px;
     position:relative;
+    border-bottom: #0c8a1d 4px solid;
 }
 .cover-text{
     background-color: rgb(24, 23, 23,0.6);
@@ -135,10 +136,25 @@ main {
     
 }
 .cover-text h2{
-    
     font-size: 200%;
 }
+.more{
+    background-color: #0c8a1d;
+    position: absolute;
+    bottom:-20px;
+    text-align: center;
+    width:40%;
+    min-height: 40px;
+    padding-top: 10px;
+    margin: 0 30% 0 30%;
+    border-radius: 20px;
+}
+.why-golf{
+    background-color: #fafafa;
+    height:600px;
+    width:100px;
 
+}
 
 /*Footer*/
 #social-networks {
@@ -186,10 +202,12 @@ main {
     }
 
     .cover-text{
-        
         width: 80%;
         right:10%;
         left:10%;
+    }
+    .cover-text h2{
+        font-size: 300%;
     }
 }
 
