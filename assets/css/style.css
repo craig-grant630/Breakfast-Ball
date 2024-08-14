@@ -1,5 +1,5 @@
-/*Google Fonts - Crimson Text & Titillium Web*/
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+/*Google Fonts - Poppins & Titillium Web*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
 
 /*Asteriks wildcard to override default styles*/
 * {
@@ -14,7 +14,19 @@ body {
     flex-direction: column;
     min-height: 100vh;
     color: #fafafa;
-    font-family: "Titillium",sans-serif;
+    font-family: "Poppins",sans-serif;
+}
+
+h1{
+    letter-spacing: 1.1px;
+    text-shadow: #0c8a1d 1px 0 10px;
+    font-family: "Tillilium", sans-serif;
+}
+
+h2,h3{
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 1.1px;
 }
 
 /*Header*/
@@ -30,13 +42,6 @@ header {
     align-items: baseline;
 }
 
-header h1{
-    text-transform: uppercase;
-    letter-spacing: 1.1px;
-    text-shadow: #0c8a1d 1px 0 10px;
-    
-    
-}
 header a{
     text-decoration: none;
     color:#fafafa;
@@ -83,7 +88,7 @@ header li a:hover{
 
 nav{
     position:absolute;
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(10px);
     top:100%;
     right:-100%;
     padding: 0 auto;
@@ -117,7 +122,23 @@ main {
     background: linear-gradient(rgb(23, 22, 22,0.7),rgb(23, 22, 22,0.7)),url("../images/BG.jpg") no-repeat center center/cover;
     width: 100%;
     height:600px;
+    position:relative;
 }
+.cover-text{
+    background-color: rgb(24, 23, 23,0.6);
+    position: absolute;
+    top:200px;
+    text-align: center;
+    width:100%;
+    min-height: 200px;
+    padding-top: 40px;
+    
+}
+.cover-text h2{
+    
+    font-size: 200%;
+}
+
 
 /*Footer*/
 #social-networks {
@@ -163,10 +184,12 @@ main {
     #nav-toggle-label{
         display:none;
     }
+
+    .cover-text{
+        
+        width: 80%;
+        right:10%;
+        left:10%;
+    }
 }
-/*Push main content down for small screens when logo takes up more space*/
-@media screen and (max-width:371px){
-    main{
-        padding-top: 90px;
-}
-}
+
