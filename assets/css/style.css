@@ -244,15 +244,15 @@ main {
 
 /*Courses Page*/
 .gallery-1 {
-    position:relative;
-    top:10px;
+    position: relative;
+    top: 10px;
     width: 100%;
     padding: 20px;
     box-sizing: border-box;
     background-color: #f9f9f9;
     box-shadow: 0 4px 8px #0c8a1d;
     text-align: center;
-    
+
 }
 
 .gallery-title {
@@ -278,6 +278,7 @@ main {
     /* Hide scrollbar for Chrome, Safari, and Edge 
     https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp*/
 }
+
 /*Last image will have no margin right side*/
 .photos img:last-child {
     margin-right: 0;
