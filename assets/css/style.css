@@ -14,16 +14,18 @@ body {
     flex-direction: column;
     min-height: 100vh;
     color: #fafafa;
-    font-family: "Poppins",sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
-h1{
+h1 {
     letter-spacing: 1.1px;
     text-shadow: #0c8a1d 1px 0 10px;
     font-family: "Tillilium", sans-serif;
 }
 
-h2,h3,h4{
+h2,
+h3,
+h4 {
     text-transform: uppercase;
     font-family: "Poppins", sans-serif;
     letter-spacing: 1.1px;
@@ -34,116 +36,123 @@ header {
     background-color: #181717;
     padding: 0 0.5rem;
     position: fixed;
-    z-index:100;
-    width:100%;
+    z-index: 100;
+    width: 100%;
     box-shadow: 0 2px 3px #181717;
-    display:flex;
+    display: flex;
     justify-content: space-between;
     align-items: baseline;
 }
 
-header a{
+header a {
     text-decoration: none;
-    color:#fafafa;
-    padding:0.5rem 0.7rem;
+    color: #fafafa;
+    padding: 0.5rem 0.7rem;
     /*Reminder use for larger screens*/
-    cursor:pointer;
+    cursor: pointer;
 }
 
-header li a:hover{
+header li a:hover {
     text-decoration: underline;
     color: #0c8a1d;
     text-shadow: #0c8a1d 1px 0 10px;
 }
-#menu{
+
+#menu {
     list-style: none;
-    font-size:100%;
+    font-size: 100%;
     letter-spacing: 2px;
-    
+
 }
 
-#menu > li{
+#menu>li {
     margin: auto 0;
-    padding:15px 2px;
-    
+    padding: 15px 2px;
+
 }
-.active{
+
+.active {
     text-decoration: underline;
-    color:#0c8a1d;
+    color: #0c8a1d;
     font-weight: bold;
 }
 
-.contact{
+.contact {
     background-color: #0c8a1d;
-    border:none;
+    border: none;
     border-radius: 20px;
 }
 
-.contact:hover{
-    color:#fafafa;
+.contact:hover {
+    color: #fafafa;
     transform: scale(1.05);
     text-decoration: none;
 }
+
 /*Navbar styles with dropdown toggle*/
 
-nav{
-    position:absolute;
+nav {
+    position: absolute;
     backdrop-filter: blur(10px);
-    top:100%;
-    right:-100%;
+    top: 100%;
+    right: -100%;
     padding: 0 auto;
     padding-bottom: 10px;
-    width:100%;
+    width: 100%;
     text-align: center;
     /*Transistion found https://developer.mozilla.org/en-US/docs/Web/CSS/transition*/
-    transition: 0.75s ease-out;   
+    transition: 0.75s ease-out;
 }
 
 /*Nav Toggle*/
-#nav-toggle:checked ~ nav{
-    right:0;
+#nav-toggle:checked~nav {
+    right: 0;
 }
 
-header input{
-    display:none;
+header input {
+    display: none;
 }
 
-#nav-toggle-label{
+#nav-toggle-label {
     font-size: 200%;
 }
 
 /*Main content*/
 main {
-    
+
     flex: 1;
-    padding-top:53px;
+    padding-top: 53px;
 }
-#hero{
-    background: linear-gradient(rgb(23, 22, 22,0.7),rgb(23, 22, 22,0.7)),url("../images/BG.jpg") no-repeat center center/cover;
+
+#hero {
+    background: linear-gradient(rgb(23, 22, 22, 0.7), rgb(23, 22, 22, 0.7)), url("../images/BG.jpg") no-repeat center center/cover;
     width: 100%;
-    height:600px;
-    position:relative;
+    height: 600px;
+    position: relative;
     border-bottom: #0c8a1d 4px solid;
 }
-.cover-text{
-    background-color: rgb(24, 23, 23,0.6);
+
+.cover-text {
+    background-color: rgb(24, 23, 23, 0.6);
     position: absolute;
-    top:200px;
+    top: 200px;
     text-align: center;
-    width:100%;
+    width: 100%;
     min-height: 200px;
     padding-top: 40px;
-    
+
 }
-.cover-text h2{
+
+.cover-text h2 {
     font-size: 200%;
 }
-.more{
+
+.more {
     background-color: #0c8a1d;
     position: absolute;
-    bottom:-20px;
+    bottom: -20px;
     text-align: center;
-    width:40%;
+    width: 40%;
     min-height: 40px;
     padding-top: 10px;
     margin: 0 30% 0 30%;
@@ -152,14 +161,15 @@ main {
 }
 
 /*New section*/
-#reasons{
+#reasons {
     font-family: Arial, sans-serif;
     margin: 20px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding:0 10px;
+    padding: 0 10px;
 }
+
 .why-golf {
     position: relative;
     width: 80%;
@@ -171,7 +181,7 @@ main {
 .why-golf span {
     background-color: #fff;
     position: relative;
-    top:-17px;
+    top: -17px;
     padding: 0 40px;
     color: #181717;
     font-size: 200%;
@@ -179,55 +189,93 @@ main {
     font-family: "poppins", sans-serif;
 }
 
-#health, #social,#fun{
-    margin: 20px auto; 
-    padding: 20px; 
-    background-color: #f9f9f9; 
-    border-radius: 8px; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-    font-family: Arial, sans-serif; 
+#health,
+#social,
+#fun {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width:80%;
+    width: 80%;
 }
 
-#health h4,#social h4,#fun h4{
-    font-size: 24px; 
-    color: #333; 
-    margin-bottom: 10px; 
+#health h4,
+#social h4,
+#fun h4 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
 }
 
-#health hr,#social hr,#fun hr {
-    border: none; 
-    height: 2px; 
-    background-color: #ccc; 
-    margin-bottom: 20px; 
+#health hr,
+#social hr,
+#fun hr {
+    border: none;
+    height: 2px;
+    background-color: #ccc;
+    margin-bottom: 20px;
     width: 100%;
 }
 
-#health p,#social p,#fun p {
+#health p,
+#social p,
+#fun p {
     font-size: 16px;
-    color: #555; 
-    line-height: 1.6; 
-    margin-bottom: 20px; 
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
 }
 
-#health img, #social img, #fun img {
-    display: block; 
-    max-width: 100%; 
-    height: auto; 
-    border-radius: 8px; 
-    margin-top: 20px; 
+#health img,
+#social img,
+#fun img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
     min-width: 280px;
     max-width: 340px;
 }
 
+/*Courses Page*/
+#gallery-1 {
+    width: 100%;
+}
+
+#gallery-1 div {
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    margin: 10px 5px;
+    box-shadow: 0 4px 8px rgb(12, 138, 29, 0.7);
+    color: #181717;
+
+}
+
+#gallery-1 p {
+    padding: 10px;
+
+}
+
+#photos {
+    line-height: 0;
+}
+
+#photos img {
+    width: 100%;
+    line-height: 1em;
+}
 
 /*Footer*/
-footer{
+footer {
     background-color: #181717;
-    padding:10px;
+    padding: 10px;
 }
 
 #social-networks {
@@ -239,90 +287,109 @@ footer{
     list-style-type: none;
 }
 
-#social-networks i{
+#social-networks i {
     font-size: 170%;
-    color:#fafafa;
-    padding:5%;
+    color: #fafafa;
+    padding: 5%;
 }
-footer i{
+
+footer i {
     font-size: 170%;
-    color:#fafafa;
-    padding:1rem 1rem;
+    color: #fafafa;
+    padding: 1rem 1rem;
 }
-footer div{
+
+footer div {
     display: flex;
     align-items: baseline;
 }
-footer i:hover{
+
+footer i:hover {
     color: #0c8a1d;
 }
+
 /*Media query: larger screens (tablets and computers)*/
-@media screen and (min-width:768px){
-    nav{
-        right:0;
-        position:relative;
+@media screen and (min-width:768px) {
+    nav {
+        right: 0;
+        position: relative;
         box-shadow: none;
         transition: none;
-        padding-bottom:0;
-        width:auto;
+        padding-bottom: 0;
+        width: auto;
         backdrop-filter: none;
     }
-    #menu{
-        display:flex;
+
+    #menu {
+        display: flex;
         justify-content: flex-end;
     }
 
-    #menu > li{
-        padding:5px 2px;
-        
+    #menu>li {
+        padding: 5px 2px;
+
     }
 
-    #nav-toggle-label{
-        display:none;
+    #nav-toggle-label {
+        display: none;
     }
 
-    .cover-text{
+    .cover-text {
         width: 80%;
-        right:10%;
-        left:10%;
+        right: 10%;
+        left: 10%;
     }
-    .cover-text h2{
+
+    .cover-text h2 {
         font-size: 300%;
     }
-    #health, #fun {
-        flex-direction: row; /* Changes the direction to row for larger screens */
-        justify-content: space-between; /* Adds space between the image and text */
-        align-items: flex-start; /* Aligns text at the top, image alignment handled separately */
-        gap:10px;
-        width:100%;
-       
+
+    #health,
+    #fun {
+        flex-direction: row;
+        /* Changes the direction to row for larger screens */
+        justify-content: space-between;
+        /* Adds space between the image and text */
+        align-items: flex-start;
+        /* Aligns text at the top, image alignment handled separately */
+        gap: 10px;
+        width: 100%;
+
     }
 
-    #social{
+    #social {
         flex-direction: row-reverse;
-        gap:20px;
-        width:100%;
-        
+        gap: 20px;
+        width: 100%;
+
     }
-    #health div, #social div, #fun div {
-        flex: 1; /* Allows the text to take up available space */
-        margin-right: 30px; /* Adds space between text and image */
+
+    #health div,
+    #social div,
+    #fun div {
+        flex: 1;
+        /* Allows the text to take up available space */
+        margin-right: 30px;
+        /* Adds space between text and image */
     }
-    #health img{
-        width:350px;
+
+    #health img {
+        width: 350px;
         border-radius: 5%;
     }
-     #fun img {
-        flex: 1; 
-        margin-top: 10px; 
-        max-width: 40%; 
+
+    #fun img {
+        flex: 1;
+        margin-top: 10px;
+        max-width: 40%;
         align-self: flex-end;
-        
+
         min-width: 350px;
-        
+
     }
-    #social img{
+
+    #social img {
         border-radius: 50%;
-        margin-top:20px;
+        margin-top: 20px;
     }
 }
