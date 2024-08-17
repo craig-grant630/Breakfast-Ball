@@ -225,6 +225,11 @@ main {
 
 
 /*Footer*/
+footer{
+    background-color: #181717;
+    padding:10px;
+}
+
 #social-networks {
     text-align: center;
     padding: 1rem 0;
@@ -239,11 +244,18 @@ main {
     color:#fafafa;
     padding:5%;
 }
-
-#social-networks i:hover{
-    color:#0c8a1d;
+footer i{
+    font-size: 170%;
+    color:#fafafa;
+    padding:1rem 1rem;
 }
-
+footer div{
+    display: flex;
+    align-items: baseline;
+}
+footer i:hover{
+    color: #0c8a1d;
+}
 /*Media query: larger screens (tablets and computers)*/
 @media screen and (min-width:768px){
     nav{
