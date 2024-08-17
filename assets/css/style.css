@@ -281,25 +281,36 @@ main {
         justify-content: space-between; /* Adds space between the image and text */
         align-items: flex-start; /* Aligns text at the top, image alignment handled separately */
         gap:10px;
+        width:100%;
+       
     }
 
     #social{
         flex-direction: row-reverse;
         gap:20px;
+        width:100%;
         
     }
     #health div, #social div, #fun div {
         flex: 1; /* Allows the text to take up available space */
         margin-right: 30px; /* Adds space between text and image */
     }
-
-    #health img, #social img, #fun img {
-        flex: 1; /* Allows the image to take up available space */
-        margin-top: 0; /* Removes the top margin for the image */
-        max-width: 40%; /* Adjusts the image width */
+    #health img{
+        width:350px;
+        border-radius: 5%;
+    }
+     #fun img {
+        flex: 1; 
+        margin-top: 10px; 
+        max-width: 40%; 
         align-self: flex-end;
-        margin-bottom: 30%;
+        margin-bottom: 10%;
         min-width: 350px;
-        min-height: 300px;
+        
+    }
+    #social img{
+        border-radius: 50%;
+        margin-top:20px;
+        
     }
 }
