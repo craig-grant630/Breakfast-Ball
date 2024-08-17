@@ -150,12 +150,15 @@ main {
     border-radius: 20px;
     z-index: 5;
 }
+
+/*New section*/
 #reasons{
     font-family: Arial, sans-serif;
     margin: 20px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding:0 10px;
 }
 .why-golf {
     position: relative;
@@ -173,6 +176,49 @@ main {
     color: #181717;
     font-size: 150%;
     font-weight: 700;
+}
+
+#health {
+    margin: 20px auto; 
+    padding: 20px; 
+    background-color: #f9f9f9; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    font-family: Arial, sans-serif; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:80%;
+}
+
+#health h4 {
+    font-size: 24px; 
+    color: #333; 
+    margin-bottom: 10px; 
+}
+
+#health hr {
+    border: none; 
+    height: 2px; 
+    background-color: #ccc; 
+    margin-bottom: 20px; 
+    width: 100%;
+}
+
+#health p {
+    font-size: 16px;
+    color: #555; 
+    line-height: 1.6; 
+    margin-bottom: 20px; 
+}
+
+#health img {
+    display: block; 
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 8px; 
+    margin-top: 20px; 
+    min-width: 300px;
 }
 
 
@@ -229,5 +275,6 @@ main {
     .cover-text h2{
         font-size: 300%;
     }
+
 }
 
