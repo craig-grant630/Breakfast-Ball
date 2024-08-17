@@ -304,13 +304,12 @@ main {
         margin-top: 10px; 
         max-width: 40%; 
         align-self: flex-end;
-        margin-bottom: 10%;
+        
         min-width: 350px;
         
     }
     #social img{
         border-radius: 50%;
         margin-top:20px;
-        
     }
 }
