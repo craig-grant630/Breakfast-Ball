@@ -312,6 +312,7 @@ main {
     display: flex;
     flex-direction: column;
     text-align: center;
+    height:100vh;
 }
 
 .lesson-container {
@@ -365,6 +366,7 @@ main {
 .pricing p {
     font-size: 100%;
 }
+
 
 /*Footer*/
 footer {

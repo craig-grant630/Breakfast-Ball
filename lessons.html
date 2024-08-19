@@ -83,6 +83,55 @@
                     </div>
 
                 </div>
+    
+            
+            <section id="signup-form">
+                <h3>Sign Up</h3>
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="first-name">First Name:</label>
+                        <input type="text" id="first-name" name="first-name" required placeholder="First Name">
+                    </div>
+        
+                    <div class="form-group">
+                        <label for="last-name">Last Name:</label>
+                        <input type="text" id="last-name" name="last-name" required placeholder="Last Name">
+                    </div>
+        
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required placeholder="Email">
+                    </div>
+        
+                    <div class="form-group">
+                        <label for="golfing-level">Golfing Level:</label>
+                        <select id="golfing-level" name="golfing-level">
+                            <option value="beginner">Beginner</option>
+                            <option value="intermediate">Intermediate</option>
+                            <option value="advanced">Advanced</option>
+                        </select>
+                    </div>
+        
+                    <div class="form-group">
+                        <label for="age">Age:</label>
+                        <input type="number" id="age" name="age" min="0" required placeholder="Age">
+                    </div>
+        
+                    <div class="form-group">
+                        <label>Are you a student?</label>
+                        <div class="radio-group">
+                            <input type="radio" id="student-yes" name="student" value="yes" required>
+                            <label for="student-yes">Yes</label>
+                        </div>
+                        <div class="radio-group">
+                            <input type="radio" id="student-no" name="student" value="no" required>
+                            <label for="student-no">No</label>
+                        </div>
+                    </div>
+        
+                    <button type="submit">Sign Up</button>
+                </form>
+            </section>
             </section>
     </main>
     <!--Footer-->
