@@ -248,11 +248,26 @@ main {
     top: 10px;
     width: 100%;
     padding: 20px;
-    box-sizing: border-box;
     background-color: #f9f9f9;
     box-shadow: 0 4px 8px #0c8a1d;
     text-align: center;
+    margin-bottom: 10px;
 
+}
+.gallery-2 {
+    position: relative;
+    top: 10px;
+    width: 100%;
+    padding: 20px;
+    background-color: #181717;
+    box-shadow: 0 4px 8px #0c8a1d;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+.gallery-title-2 {
+    color: #f9f9f9;
+    margin-bottom: 20px;
 }
 
 .gallery-title {
@@ -271,6 +286,7 @@ main {
     border-radius: 5px;
     transition: transform 0.3s ease;
     display: inline-block;
+    object-fit: cover;
 }
 
 .photos::-webkit-scrollbar {
@@ -318,10 +334,6 @@ footer i {
 footer div {
     display: flex;
     align-items: baseline;
-}
-
-footer i:hover {
-    color: #0c8a1d;
 }
 
 /*Media query: larger screens (tablets and computers)*/
