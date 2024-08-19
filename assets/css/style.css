@@ -259,7 +259,7 @@ main {
     top: 10px;
     width: 100%;
     padding: 20px;
-    background-color: #181717;
+    background-color: rgb(24, 23, 23,0.8);
     box-shadow: 0 4px 8px #0c8a1d;
     text-align: center;
     margin-bottom: 10px;
