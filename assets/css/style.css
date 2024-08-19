@@ -483,5 +483,18 @@ footer div {
         margin-top: 20px;
     }
 
+    #lesson-cards {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 20px;
+    }
+
+    .lesson-card {
+        flex: 1;
+        
+        max-width: 33%;
+        padding: 10px;
+    }
 
 }
