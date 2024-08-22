@@ -282,12 +282,6 @@ main {
     object-fit: cover;
 }
 
-.photos::-webkit-scrollbar {
-    display: none;
-    /* Hide scrollbar for Chrome, Safari, and Edge 
-    https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp*/
-}
-
 /*Last image will have no margin right side*/
 .photos img:last-child {
     margin-right: 0;
