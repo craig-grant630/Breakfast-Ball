@@ -77,17 +77,8 @@ header li a:hover {
     font-weight: bold;
 }
 
-.contact {
-    background-color: #0c8a1d;
-    border: none;
-    border-radius: 20px;
-}
 
-.contact:hover {
-    color: #fafafa;
-    transform: scale(1.05);
-    text-decoration: none;
-}
+
 
 /*Navbar styles with dropdown toggle*/
 
