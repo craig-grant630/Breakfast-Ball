@@ -21,3 +21,12 @@ The inspiration behind creating the Breakfast Ball website stems from a desire t
 - Golf Beginners: Individuals who are new to golf and looking for a comprehensive guide to understanding the basics and getting started with their golfing journey.
 - Intermediate Golfers: Players with some experience who want to improve their skills, refine techniques, or learn new strategies to elevate their game to the next level.
 - Golf Enthusiasts and Hobbyists: Anyone with a general interest in golf, from casual hobbyists to avid players, seeking information, tips, or lessons to enhance their enjoyment and understanding of the sport.
+
+## Design
+### **Colours**
+
+ - Dark Green (#0c8a1d): A deep green used for accents and highlighting key elements.
+- Dark Gray/Black (#181717): A dark background color providing contrast for lighter text and elements.
+- Light Gray/White (#fafafa): A soft, light color used for text against dark backgrounds.
+ - Off-White (#f9f9f9): A subtle, warm background color used for content areas to maintain readability and contrast.
+
