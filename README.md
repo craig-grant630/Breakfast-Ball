@@ -35,6 +35,13 @@ The inspiration behind creating the Breakfast Ball website stems from a desire t
 ### **Typography**
 - All icons were sourced through [font Awesome](https://fontawesome.com/)
 - All fonts were sourced through [Google Fonts](https://fonts.google.com/)
-- Titillium
+- Titillium Web
 - Poppins
   
+## Features
+
+### **Navigation**
+
+- Featured at the top of each page, the navigation shows the club name "Breafast Ball" in the left corner that links to the home page.
+- The navigation links to the right: Home, Lessons and Courses link to different pages.
+- The navigation menu is designed to be fixed at the top of the screen and is hidden by default on smaller screens.
