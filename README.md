@@ -29,6 +29,8 @@ The inspiration behind creating the Breakfast Ball website stems from a desire t
 - Dark Gray/Black (#181717): A dark background color providing contrast for lighter text and elements.
 - Light Gray/White (#fafafa): A soft, light color used for text against dark backgrounds.
  - Off-White (#f9f9f9): A subtle, warm background color used for content areas to maintain readability and contrast.
+   
+![Colours Schemes](./assets/images/coolors.webp)
 
 ### **Typography**
 - All icons were sourced through [font Awesome](https://fontawesome.com/)
