@@ -45,3 +45,7 @@ The inspiration behind creating the Breakfast Ball website stems from a desire t
 - Featured at the top of each page, the navigation shows the club name "Breafast Ball" in the left corner that links to the home page.
 - The navigation links to the right: Home, Lessons and Courses link to different pages.
 - The navigation menu is designed to be fixed at the top of the screen and is hidden by default on smaller screens.
+
+![Navigation bar for Breakfast Ball](./assets/images/navbar.webp)
+
+
