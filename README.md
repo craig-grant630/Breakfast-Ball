@@ -69,3 +69,10 @@ The inspiration behind creating the Breakfast Ball website stems from a desire t
 | ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
 | <img src="./assets/images/why-golf-large.webp" alt="desktop why golf image"/>                             | <img src="./assets/images/why-golf-small.webp" alt="mobile why golf image"/> |
 
+### **Courses Page**
+**Gallery**
+
+- Each gallery section is accompanied by a detailed description of the course including its history allowing the user to learn more about the challenges and heritage of each course.
+- The gallery is designed to be intuitive and easy to navigate, allowing users to explore different courses. The gallery has a horizontal scroll allowing the user to look at the the photos and not be overwhelmed with content.
+  
+<img src="./assets/images/gallery-scroll.webp" alt="desktop gallery image"/>   
