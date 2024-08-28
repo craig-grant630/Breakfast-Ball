@@ -48,4 +48,15 @@ The inspiration behind creating the Breakfast Ball website stems from a desire t
 
 | Desktop                                                                            | Mobile                                                                           |
 | ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
-| <img src="./assets/images/navbar.webp" alt="desktop navigation image"/> | <img src="./assets/images/navbar-small.webp" alt="mobile navigation image"/> |
+| <img src="./assets/images/navbar.webp" alt="desktop navigation image"/>            | <img src="./assets/images/navbar-small.webp" alt="mobile navigation image"/> |
+
+### **Home Page**
+
+**Hero Section**
+- The Hero section shows the name of the club, using an off white color.
+- The hero section uses a background image with a dark overlay to make text content more legible and visually appealing.
+- The size of the overylay uses the full length of the screen for mobile screens and this desreases for larger devices.
+
+| Desktop                                                                            | Mobile                                                                           |
+| ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| <img src="#" alt="desktop hero image"/>                             | <img src="#" alt="mobile hero image"/> |
