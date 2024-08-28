@@ -46,10 +46,6 @@ The inspiration behind creating the Breakfast Ball website stems from a desire t
 - The navigation links to the right: Home, Lessons and Courses link to different pages.
 - The navigation menu is designed to be fixed at the top of the screen and is hidden by default on smaller screens.
 
-Navigation bar for larger screens:
-
-![Navigation bar for Breakfast Ball](./assets/images/navbar.webp)
-
-Navigation bar for smaller screens:
-
-![Navigation bar for Breakfast Ball](./assets/images/navbar-small.webp)
+| Desktop                                                                            | Mobile                                                                           |
+| ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| <img src="./assets/images/navbar-small.webp" alt="desktop navigation image"/> | <img src="./assets/images/navbar.webp" alt="navigation desktop image"/> |
