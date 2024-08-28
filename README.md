@@ -64,3 +64,8 @@ The inspiration behind creating the Breakfast Ball website stems from a desire t
 **Why Golf**
 - Breakfast Ball aims to educate visitors about the many reasons to consider golf as a sport of choice, fostering a welcoming atmosphere for newcomers and promoting a healthy, active lifestyle.
 - This description provides a clear understanding of the "Why Golf?" section's purpose and content, making it easy for potential contributors or users of the website to understand its significance.
+
+| Desktop                                                                            | Mobile                                                                           |
+| ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| <img src="./assets/images/why-golf-large.webp" alt="desktop why golf image"/>                             | <img src="./assets/images/why-golf-small.webp" alt="mobile why golf image"/> |
+
