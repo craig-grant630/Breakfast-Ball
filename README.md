@@ -59,4 +59,4 @@ The inspiration behind creating the Breakfast Ball website stems from a desire t
 
 | Desktop                                                                            | Mobile                                                                           |
 | ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
-| <img src="#" alt="desktop hero image"/>                             | <img src="#" alt="mobile hero image"/> |
+| <img src="./assets/images/hero-large.webp" alt="desktop hero image"/>                             | <img src="./assets/images/hero-small.webp" alt="mobile hero image"/> |
