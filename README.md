@@ -48,4 +48,4 @@ The inspiration behind creating the Breakfast Ball website stems from a desire t
 
 | Desktop                                                                            | Mobile                                                                           |
 | ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
-| <img src="./assets/images/navbar-small.webp" alt="desktop navigation image"/> | <img src="./assets/images/navbar.webp" alt="navigation desktop image"/> |
+| <img src="./assets/images/navbar.webp" alt="desktop navigation image"/> | <img src="./assets/images/navbar-small.webp" alt="mobile navigation image"/> |
