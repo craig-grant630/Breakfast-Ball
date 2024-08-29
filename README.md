@@ -15,19 +15,19 @@ Inspired by the idea that golf should be accessible and pleasant to all people, 
 ### **Project Goals**
 - The website is designed with user-friendly navigation, allowing users to easily find information about golf lessons, pricing, skill levels, and more.
 - Offer a visually appealing and responsive design suitable for both desktop and mobile users.
-- Ensure a seamless and intuitive user interface.
+- Ensure a seamless and effective user interface.
 ### **Target Audience**
 - Golf Beginners: Individuals who are new to golf and looking for a comprehensive guide to understanding the basics and getting started with their golfing journey.
-- Intermediate Golfers: Players with some experience who want to improve their skills, refine techniques, or learn new strategies to elevate their game to the next level.
-- Golf Enthusiasts and Hobbyists: Anyone with a general interest in golf, from casual hobbyists to avid players, seeking information, tips, or lessons to enhance their enjoyment and understanding of the sport.
+- Intermediate Golfers: Players with some experience who want to improve their skills, refine techniques, or learn new strategies to raise their game to the next level.
+- Golf Enthusiasts and Hobbyists: Anyone with a general interest in golf, from casual to avid players, seeking information, tips, or lessons to enhance their enjoyment, understanding and skill of the sport.
 
 ## Design
 ### **Colours**
 
- - Dark Green (#0c8a1d): A deep green used for accents and highlighting key elements.
+- Dark Green (#0c8a1d): A deep green used for accents and highlighting key elements.
 - Dark Gray/Black (#181717): A dark background color providing contrast for lighter text and elements.
 - Light Gray/White (#fafafa): A soft, light color used for text against dark backgrounds.
- - Off-White (#f9f9f9): A subtle, warm background color used for content areas to maintain readability and contrast.
+- Off-White (#f9f9f9): A subtle, warm background color used for content areas to maintain readability and contrast.
    
 ![Colours Schemes](./assets/images/coolors.webp)
 
@@ -123,10 +123,11 @@ Inspired by the idea that golf should be accessible and pleasant to all people, 
 
 **Navigation Bar**
 
-- Test the navigation bar's responsiveness across different screen resolutions.
-- Verify that clicking on each navigation link correctly loads the associated page.
+- Test the navigation bar's responsiveness across different screen sizes.
+- Verify that clicking on each navigation links correctly loads the associated page (Home, Lessons or Courses Pages).
 - Check that the navigation bar remains fixed at the top of the page when scrolling.
-- Ensure the mouse hover effect is visible when hovering over a navigation link.
+- Ensure the mouse hover effect is visible when hovering over a navigation links.
+- Check that the active page link will be underlined and highlighted.
 
 **Sign-up Form**
 
@@ -149,6 +150,16 @@ Google lighthouse scores can be found below.
 **Lessons Page**
 
 <img src="./assets/images/lighthouse-lessons.webp" alt="Lighthouse score Lessons page"/>
+
+### **Validator Testing**
+
+**HTML**
+- No errors were detected when running through the official W3C Validator
+- This was run for all pages
+
+**CSS**
+- No errors were detected when run through the official (Jigsaw) Validator
+
 
 ## Deployment 
 
