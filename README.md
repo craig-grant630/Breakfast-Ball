@@ -2,15 +2,14 @@
 
 ## Description ##
 
-Breakfast Ball is an inclusive website catering to golf enthusiasts of all ages and experience levels. Whether you're a complete beginner eager to embark on your golfing journey or an experienced player aiming to refine and expand your skills, Breakfast Ball provides a diverse selection of golf lessons. These lessons are carefully crafted to guide you through the fundamentals or help you elevate your game to the next level. The platform is designed to be both educational and engaging, making it a valuable resource for anyone looking to improve their understanding and enjoyment of golf.
+Breakfast Ball welcomes golfers of all ages and skill levels. ⁤⁤Breakfast Ball offers a variety of golf classes, whether you're an expert player looking to improve and broaden your abilities or a total novice ready to start your golfing journey. ⁤⁤These classes are expertly designed to walk you through the foundations or help you reach new heights in your performance. ⁤⁤The platform is an invaluable tool for anybody trying to have a better knowledge and appreciation of golf because it is intended to be both entertaining and instructional. ⁤
 
-Users can easily navigate the Breakfast Ball website to explore the wide range of information and lessons available. The site features sections on topics such as “Why Golf,” pricing details, skill levels, and contact information, along with a sign-up form for those interested. Whether you're already passionate about golf or simply curious to learn more, this site is tailored to anyone with an interest in the sport.
-
+The Breakfast Ball website is easy to navigate and offers a wealth of information and courses for users to explore. ⁤⁤There's a sign-up form for individuals who are interested, as well as sections on "Why Golf," cost, ability levels, and contact data on the website. ⁤⁤This website is designed for everyone with an interest in golf, regardless of whether you're currently an avid player or just interested in learning more. 
 ![Breakfast Ball responsivity](./assets/images/am-i-responsive.webp)
 
 ## Inspiration 
 
-The inspiration behind creating the Breakfast Ball website stems from a desire to make golf accessible and enjoyable for everyone, regardless of age or skill level. Recognizing that golf can be both an intimidating and rewarding sport, Breakfast Ball was designed to demystify the game and offer structured guidance to anyone interested in learning more. The website aims to be a comprehensive resource, providing clear information, affordable pricing, and tailored lessons to help users at any stage of their golfing journey. By creating an easy-to-navigate platform, Breakfast Ball seeks to inspire a love for golf and support individuals in developing their skills and confidence on the course.
+Inspired by the idea that golf should be accessible and pleasant to all people, regardless of ability level or age. Breakfast Ball was created with the understanding that golf can be a rewarding and scary sport. It provides organized instruction to those who are interested in learning more about the game. With its clear information, reasonable prices, and customized instruction, the website seeks to be a one-stop shop for golfers at any level of skill. Breakfast Ball aims to encourage a love of golf and assist people in improving their abilities and self-assurance on the course by providing an intuitive platform.
 
 ## User Experience
 ### **Project Goals**
