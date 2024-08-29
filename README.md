@@ -90,3 +90,11 @@ The inspiration behind creating the Breakfast Ball website stems from a desire t
 - The Signup Form helps to engage new users and enhance their experience on the Breakfast Ball platform.
 
 <img src="./assets/images/sign-up-form.webp" alt="sign-up from image"/>
+
+## Testing
+
+ - Breakfast Ball has been tested consistently across different browsers: Chrome, Firefox, Safari, Edge.
+ - Responsiveness has been tested on  various devices (desktop, tablet, mobile) and screen sizes to ensure the layout adapts properly.
+
+  
+
