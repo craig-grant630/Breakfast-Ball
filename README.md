@@ -135,6 +135,14 @@ Inspired by the idea that golf should be accessible and pleasant to all people, 
 - Verify that when all required fields are correctly filled in and all input data meets the validation criteria, the form is successfully submitted and the user is redirected.
 - Confirm that all input fields have the correct HTML input types (e.g., email, number, password) to enhance validation.
 
+**Bugs**
+
+- When Breakfast Ball was deployed to Github pages, the links to image files were not working.
+- This was due to the fact that absolute file paths were used, to correct this see below.
+
+<img src="#" alt="Bugs correction"/>
+
+
 ### **Google Lighthouse**
 
 Google lighthouse scores can be found below.
