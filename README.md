@@ -53,7 +53,7 @@ Inspired by the idea that golf should be accessible and pleasant to all people, 
 
  </details>
 
-## **Footer**
+### **Footer**
 
 - Featured at the botttom of each page, the footer has links for social media that are epresented with icons.
 - The footer links to external social media sites: Facebook, Instagram, Youtube and X.
@@ -61,7 +61,7 @@ Inspired by the idea that golf should be accessible and pleasant to all people, 
 
 <details><summary>Footer Images</summary>
   
-<img src="#" alt="Footer image"/> 
+<img src="./assets/images/footer.webp" alt="Footer image"/> 
 
  </details>
  
