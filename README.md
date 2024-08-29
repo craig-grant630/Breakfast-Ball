@@ -76,3 +76,17 @@ The inspiration behind creating the Breakfast Ball website stems from a desire t
 - The gallery is designed to be intuitive and easy to navigate, allowing users to explore different courses. The gallery has a horizontal scroll allowing the user to look at the the photos and not be overwhelmed with content.
   
 <img src="./assets/images/gallery-scroll.webp" alt="desktop gallery image"/>   
+
+### **Lessons Page**
+**Pricing**
+
+- The pricing structure is designed to be transparent and flexible, accommodating different budgets and preferences.
+- The section allows users to easily compare different lesson packages and pricing tiers, making it simple to select the most suitable coaching plan.
+
+<img src="./assets/images/pricing.webp" alt="Pricing image section"/>
+
+**Sign-up Form**
+- The signup form is designed with simplicity and ease of use in mind. It requires basic information such as name, email address, and password, allowing new users to register quickly.
+- The Signup Form helps to engage new users and enhance their experience on the Breakfast Ball platform.
+
+<img src="./assets/images/sign-up-form.webp" alt="sign-up from image"/>
