@@ -216,6 +216,7 @@ Breakfast has been deployed to Github pages as follows:
 ## Credits
 - The code to make the navigation bar and footer links were taken by CI [Love Running](https://github.com/craig-grant630/love-running.git)
 - Some images have been taken from [Pexels](https://www.pexels.com/)
+- ChatGPT has assisted for text/paragraphs and information for Breakfast Ball webpage.
 
 ## Acknowledgements
 
