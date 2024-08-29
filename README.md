@@ -42,7 +42,7 @@ Inspired by the idea that golf should be accessible and pleasant to all people, 
 ### **Navigation Bar**
 
 - Featured at the top of each page, the navigation shows the club name "Breafast Ball" in the left corner that links to the home page.
-- The navigation links to the right: Home, Lessons and Courses link to different pages.
+- The navigation links to: Home, Lessons and Courses pages.
 - The navigation menu is designed to be fixed at the top of the screen and is hidden by default on smaller screens.
 
  <details><summary>Navigation Images</summary>
@@ -50,6 +50,18 @@ Inspired by the idea that golf should be accessible and pleasant to all people, 
 | Desktop                                                                            | Mobile                                                                           |
 | ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
 | <img src="./assets/images/navbar.webp" alt="desktop navigation image"/>            | <img src="./assets/images/navbar-small.webp" alt="mobile navigation image"/> |
+
+ </details>
+
+## **Footer**
+
+- Featured at the botttom of each page, the footer has links for social media that are epresented with icons.
+- The footer links to external social media sites: Facebook, Instagram, Youtube and X.
+- The footer is designed at the bottom of each page with the same style for seamless user experience.
+
+<details><summary>Footer Images</summary>
+  
+<img src="#" alt="Footer image"/> 
 
  </details>
  
@@ -134,6 +146,10 @@ Inspired by the idea that golf should be accessible and pleasant to all people, 
 - Ensure that the form cannot be submitted if any required fields are left empty.
 - Verify that when all required fields are correctly filled in and all input data meets the validation criteria, the form is successfully submitted and the user is redirected.
 - Confirm that all input fields have the correct HTML input types (e.g., email, number, password) to enhance validation.
+
+**Footer**
+- Ensure that each link correctly loads the associated external page.
+- Check that the page is opened in a new tab.
 
 ### **Bugs**
 
