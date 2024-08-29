@@ -135,8 +135,30 @@ The inspiration behind creating the Breakfast Ball website stems from a desire t
 - Verify that when all required fields are correctly filled in and all input data meets the validation criteria, the form is successfully submitted and the user is redirected.
 - Confirm that all input fields have the correct HTML input types (e.g., email, number, password) to enhance validation.
 
+## Deployment 
 
+**Manual Deployment**
 
+Breakfast has been deployed to Github pages as follows:
 
- 
+- Go to **Settings** tab in the Github Repository.
+- From the **"Code and automation"** section, select **pages**.
+- Set source to 'Deploy from Branch', make sure **Main branch** is selected.
+- Under Branch, click **save**.
+- The page will be automatically refreshed, in the **Enviroments** section you will be able to veiw the live site.
+  
 
+ The live site can be found: https://craig-grant630.github.io/Breakfast-Ball
+
+ **Forking Repository**
+- Go to the GitHub repository.
+- Select **"Fork"** button on the page.
+- This will create a copy of the repository in your GitHub account.
+
+**Clone Repository**
+
+- Go to the GitHub Repository.
+- Click the Code button and copy the link.
+- In Gitpod, type "git clone **repository link copied**.git" and enter.
+
+  
