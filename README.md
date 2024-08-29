@@ -135,6 +135,22 @@ The inspiration behind creating the Breakfast Ball website stems from a desire t
 - Verify that when all required fields are correctly filled in and all input data meets the validation criteria, the form is successfully submitted and the user is redirected.
 - Confirm that all input fields have the correct HTML input types (e.g., email, number, password) to enhance validation.
 
+### **Google Lighthouse**
+
+Google lighthouse scores can be found below.
+
+**Home Page**
+
+<img src="./assets/images/lighthouse-index.webp" alt="Lighthouse score home page"/>
+
+**Courses Page**
+
+<img src="./assets/images/lighthouse-courses.webp" alt="Lighthouse score Courses page"/>
+
+**Lessons Page**
+
+<img src="./assets/images/lighthouse-lessons.webp" alt="Lighthouse score Lessons page"/>
+
 ## Deployment 
 
 **Manual Deployment**
