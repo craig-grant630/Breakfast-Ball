@@ -140,7 +140,7 @@ Inspired by the idea that golf should be accessible and pleasant to all people, 
 - When Breakfast Ball was deployed to Github pages, the links to image files were not working.
 - This was due to the fact that absolute file paths were used, to correct this see below.
 
-<img src="#" alt="Bugs correction"/>
+<img src="./assets/images/bugs.webp" alt="Bugs correction"/>
 
 
 ### **Google Lighthouse**
