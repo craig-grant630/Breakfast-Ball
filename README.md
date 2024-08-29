@@ -119,7 +119,7 @@ Inspired by the idea that golf should be accessible and pleasant to all people, 
  - Breakfast Ball has been tested consistently across different browsers: Chrome, Firefox, Safari, Edge.
  - Responsiveness has been tested on  various devices (desktop, tablet, mobile) and screen sizes to ensure the layout adapts properly.
 
-### **Feature Testing**
+### **Manual Testing**
 
 **Navigation Bar**
 
@@ -135,7 +135,9 @@ Inspired by the idea that golf should be accessible and pleasant to all people, 
 - Verify that when all required fields are correctly filled in and all input data meets the validation criteria, the form is successfully submitted and the user is redirected.
 - Confirm that all input fields have the correct HTML input types (e.g., email, number, password) to enhance validation.
 
-**Bugs**
+### **Bugs**
+
+**Solved Bugs**
 
 - When Breakfast Ball was deployed to Github pages, the links to image files were not working.
 - This was due to the fact that absolute file paths were used, to correct this see below.
@@ -195,4 +197,10 @@ Breakfast has been deployed to Github pages as follows:
 - Click the Code button and copy the link.
 - In Gitpod, type "git clone **repository link copied**.git" and enter.
 
-  
+## Credits
+- The code to make the navigation bar and footer links were taken by CI [Love Running](https://github.com/craig-grant630/love-running.git)
+- Some images have been taken from [Pexels](https://www.pexels.com/)
+
+## Acknowledgements
+
+Thank you to my mentor Harry Dhillon for advice and helping reveiw my work.
